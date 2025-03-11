@@ -10,6 +10,7 @@
 body {
   font-family: Arial, sans-serif; /* You can change this to your preferred font */
   line-height: 1.5;
+  interpolate-size: allow-keywords;
 }
 
 ul,
@@ -20,6 +21,7 @@ ol {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 table {
@@ -37,6 +39,7 @@ select,
 textarea {
   background: none;
   border: none;
+  font-family: inherit;
   font: inherit;
   color: inherit;
   margin: 0;
